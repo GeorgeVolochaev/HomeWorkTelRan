@@ -15,7 +15,7 @@ public class HWork1 {
                 "+7-888-88-11",60000.00, 40);
 
         for (int j = 0; j < i; j++) {
-            if (perArray[j].getAge()>40) System.out.println((perArray[j]));
+            if (perArray[j].getAge()>40) System.out.println(perArray[j]);
         }
     }
 }
