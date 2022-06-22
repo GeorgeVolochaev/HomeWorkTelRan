@@ -5,7 +5,9 @@ import java.util.Arrays;
 public class RubberArray {
     private int[] arr;
 
-    public int get(int index){
+    public Object get(int index){
+        if (index >= arr.length){
+           return null;}
         return arr[index];
     }
 

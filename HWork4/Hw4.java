@@ -14,11 +14,12 @@ public class Hw4 {
         arr.remove(3);
         System.out.println(arr);
 
-        System.out.println(arr.get(3));
-        System.out.println(arr.getMax());
-        System.out.println(arr.getMin());
+        System.out.println("Got " + arr.get(3));
+        System.out.println("Got " + arr.get(4));
+        System.out.println("Max = " + arr.getMax());
+        System.out.println("Min = " + arr.getMin());
 
-        System.out.println(arr.getAverage());
+        System.out.println("Average = " + arr.getAverage());
 
     }
 }
